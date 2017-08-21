@@ -1,0 +1,11 @@
+{
+  "name": "ci-ahmed.rocks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:a7madgamal/ci-ahmed.rocks.git",
+  "author": "Ahmed Hassanein <eng.a7mad.gamal@gmail.com>",
+  "scripts": {
+    "test": "echo works!"
+  },
+  "license": "MIT"
+}
