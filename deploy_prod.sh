@@ -1,8 +1,8 @@
 #!/bin/bash
-ssh -v root@YOUR_IP_HERE << EOF
+ssh -v yahyaelh@yahyaelhosafy.com << EOF
 
 echo '1. Updating sources'
-cd ~/public_html/ahmed_rocks
+cd ~/public_html/ahmed_rocks/ci-ahmed.rocks
 git checkout --force master
 git pull
 

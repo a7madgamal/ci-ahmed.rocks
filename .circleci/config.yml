@@ -6,3 +6,9 @@ jobs:
      steps:
        - checkout
        - run: echo "hello world"
+       - deploy:
+           name: Simple Deploy
+           command: |
+             if [ "${CIRCLE_BRANCH}" == "master" ]; then
+               ./deploy_prod.sh
+             fi
